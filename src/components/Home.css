@@ -1,0 +1,23 @@
+.profileImg{
+    width:700px;
+    height:430px;
+   margin-bottom: 60px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:1024px) {
+    #home{
+      margin-top:25%;
+    
+    }
+}
+
+/* =========================MEDIA QUERIES (SMALL DEVICES)================*/
+@media screen and (max-width:600px) {
+    #home{
+        margin-top:25%;
+      
+      }
+     
+}
