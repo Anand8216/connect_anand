@@ -8,9 +8,11 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio/Portfolio';
 import Services from './components/Services/Services';
 import Social from './social/Social';
+import Video from './components/video/Video'
 function App() {
   return (
     <>
+    <Video/>
       <Home/>
       <Social/>
       <Navbar/>

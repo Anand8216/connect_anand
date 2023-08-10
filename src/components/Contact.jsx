@@ -18,7 +18,7 @@ const Contact = () => {
         <form className=" px-8 pt-6 pb-8 mb-4 bg-white bg-opacity-10 backdrop-blur-md p-8 rounded-lg shadow-lg" ref={form} onSubmit={sendEmail}>
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2 "
+              className="block text-white text-sm font-bold mb-2 "
               htmlFor="name"
             >
               Name
@@ -32,7 +32,7 @@ const Contact = () => {
           </div>
           <div className="mb-4">
             <label
-              className="block text-gray-700 text-sm font-bold mb-2"
+              className="block text-white text-sm font-bold mb-2"
               htmlFor="email"
             >
               Email
@@ -47,7 +47,7 @@ const Contact = () => {
           </div>
           <div className="mb-6">
             <label
-              className="block text-gray-800 text-sm font-bold mb-2"
+              className="block text-white text-sm font-bold mb-2"
               htmlFor="message"
             >
               Message

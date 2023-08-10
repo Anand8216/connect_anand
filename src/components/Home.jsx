@@ -12,7 +12,7 @@ const Home = () => {
                     I'm a Full Stack Developer
 
                 </h2>
-                <p className='text-gray-500 py-4 max-w-md text-justify'>
+                <p className='text-white py-4 max-w-md text-justify'>
                 As a Full Stack Developer specializing in the MERN stack, I thrive in creating dynamic and seamless user experience, I am dedicated to delivering high-quality software products that make a positive impact.
                 </p>
                 <div>
