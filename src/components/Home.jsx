@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import ProfilePic from '../assets/profilepic.jpg'
+import ProfilePic from '../assets/3.png'
 import {BsArrowRightCircle} from 'react-icons/bs'
 const Home = () => {
   return (
@@ -16,17 +16,19 @@ const Home = () => {
                 As a Full Stack Developer specializing in the MERN stack, I thrive in creating dynamic and seamless user experience, I am dedicated to delivering high-quality software products that make a positive impact.
                 </p>
                 <div>
+                <a href="#portfolio">
                     <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500  cursor-pointer'>
                         
-                        Portfolio 
+                       Portfolio
                          
                         <span>
                         <BsArrowRightCircle/>
                         </span>
                     </button>
+                    </a> 
                 </div>
             </div>
-            <div className='mt-16'>
+            <div className='mt-16' id="isd">
                 <img src={ProfilePic} alt="this is me" className='profileImg'/>
                 </div>
         </div>

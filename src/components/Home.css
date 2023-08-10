@@ -5,6 +5,14 @@
     border-radius: 10px;
 }
 
+#isd{
+  width:700px;
+    height:430px;
+    background:rgba(122, 119, 119, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius:10px ;
+}
+
 
 @media screen and (max-width:1024px) {
     #home{
